@@ -1,0 +1,16 @@
+{
+  "name": "mf-vite-esm-misclassified-as-commonjs-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node inspect-dev.mjs"
+  },
+  "dependencies": {
+    "esmbug": "file:./packages/esmbug",
+    "esmok": "file:./packages/esmok"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "1.23.4",
+    "vite": "^7.0.0"
+  }
+}
